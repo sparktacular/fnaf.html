@@ -22,8 +22,22 @@ body {
 .icon {
     width: 25px;
     margin-right: 5px;
+}
     
-.hello {
-width: 60%; 
-
+.pr {
+ width: 100%; 
+}
+.fnaf-gif
+{
+   width: 100%; 
+}
+.gameplay {
+    width: 100%;
+}
+.fan {
+    width: 100%;
+}
+.finally
+{
+    width: 100%;
 }
