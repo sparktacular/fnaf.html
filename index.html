@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="fnaf/>
+  <link rel=" stylesheet" href="style.css">
+<link rel="icon" href="icon.png">
+<title>About game: Five Nights at Freddy's </title>
+</head>
+<body>
+<div id="content">
+<h1>Five Nights at Freddy's </h1>
+<img src="https://raw.githubusercontent.com/sparktacular/fnaf.html/refs/heads/main/%D1%84%D0%BD%D0%B0%D1%84%20%D0%BF%D1%80%D0%B5%D0%B2%D1%8C%D1%8E%D1%88%D0%B5%D1%87%D0%BA%D0%B0.avif" class="pr">
+<p>Five Nights at Freddy's, abbreviated as FNaF, is an indie horror video game developed by Scott Braden Cawthon. The game was first released on August 18, 2014.</p>
+<p>Since its release, Five Nights at Freddy's has 9 main parts of the game, several books, and a movie. </p> 
+
+<p>A short recap of the lore: You are a security guard on the night shift at Freddy Fazbear's Pizza, where you notice that the robots' behavior has become quite unusual and unpredictable for a pile of old metal. From your office, you must keep a close eye on the security cameras. </p>
+<img src="https://github.com/sparktacular/fnaf.html/blob/main/fnaf.gif?raw=true" class="fnaf-gif">
+<p>FNAF gameplay focuses on resource management, such as electricity, which is limited. The player must monitor the animatronics using cameras and make decisions about when to close doors or turn on lights to avoid attack. The game creates a tense atmosphere through sound effects, unexpected appearances of animatronics, and limited resources. The first three parts of the game have exactly this gameplay, and then it gradually changes. As does the main character. Between some parts of the game, there are canonical additions and mini-games that completely deviate from the main storyline.</p>
+<img src="https://github.com/sparktacular/fnaf.html/blob/main/gameplay.jpg?raw=true" class="gameplay">
+<p>One of the main highlights of the game is the intricate plot, which is based on a timeline that does not match the sequence of the games' releases. It has not yet been fully unraveled. At the center of the story is a mysterious and dark story about missing children, animatronics, and their connection with the Freddy Fazbear's Pizza restaurant. To a large extent, the plot is reflected in the mini-games built into the game. They are the most informative part of the game, up until part 9 and its additions. Also, plot twists with the release of each new part only further confuse players and destroy the foundation of the plot built brick by brick.</p>
+<img src="https://github.com/sparktacular/fnaf.html/blob/main/fnaf%20fan.jpg?raw=true" class="fan">
+<p>Five Nights at Freddy's has become a landmark phenomenon in the world of indie games, bringing a unique atmosphere and mechanics to the horror genre. The game has not only won the hearts of millions of players, but also created a whole culture around itself, inspiring many to create. Fan games based on FNAF are a separate form of art. Music, comics, fan art, theories and even full-fledged games! FNAF has gathered a fairly warm and kind community around itself. Fans are eagerly awaiting new games. </p>
+ <div id="end">
+<img src="https://github.com/sparktacular/fnaf.html/raw/refs/heads/main/fnaf%20finally" id="img-end" class="finally">
+  <div id="links-end">
+ <p>In conclusion, you are given links to the official game on Steam and a guide on Vkplay.</p>
+ <p><span><img src="https://github.com/TeachKait20/3-html-css-Game-card-/blob/main/steam-icon.png?raw=true" class="icon"></td> <td><a href="https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/" target="_blank">Steam</a></span> <br> </p>
+<p><span><img src="https://github.com/TeachKait20/3-html-css-Game-card-/blob/main/vk-play-logo.png?raw=true" class="icon"></td> <td><a href="https://media.vkplay.ru/games/five_nights_at_freddys/" target="_blank">Vkplay</a></span></p>
+<p>Guide written by: Alisa</p>
+</div>
+</div>
+</div>
+<div class="fog"><div></div></div>
+</body>
+</html>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(61, 61, 61);
+}
+#content {
+    background: rgb(19, 19, 19);
+    box-shadow: 10px 15px 15px black;
+    color: aliceblue;
+    text-decoration: none;
+  font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+
+    height: auto;
+    width: 50%;
+
+    padding: 5px 5px 10px 20px;
+    margin: 3% auto 3% auto;
+}
+.icon {
+    width: 25px;
+    margin-right: 5px;
+}
+    
+.pr {
+ width: 100%; 
+}
+.fnaf-gif
+{
+   width: 100%; 
+}
+.gameplay {
+    width: 100%;
+}
+.fan {
+     width: 100%;
+}
+.finally
+{
+    
+     width: 100%;
+}
+#end {
+    display: flex;
+}
+
+#img-end {
+    width: 30%;
+   
+    margin-right: 5%;
+}
+
+a {
+    color: aliceblue;
+  
+}
+/* дальше туман*/
+.fog {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    background: url("background.jpg") center center;  
+    background-size: cover;
+    z-index: -1; 
+}
+
+.fog::before,
+.fog::after,
+.fog div::before, 
+.fog div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+.fog div::before, 
+.fog div::after {
+    left: 100%;
+}
+
+.fog::before, 
+.fog div::before {
+    background-image: url("https://github.com/sparktacular/fnaf.html/blob/main/fog-1.png?raw=true");
+    animation: fogmove 20s linear 0s infinite;
+}
+
+.fog::after, 
+.fog div::after {
+    background-image: url("https://github.com/sparktacular/fnaf.html/blob/main/fog-2.png?raw=true");
+    animation: fogmove 10s linear 0s infinite;
+}
+
+@keyframes fogmove {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+</style>
+<script>
+
+</script>
